@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreightDirector", "FreightDirector\FreightDirector.csproj", "{FB9D990B-E98F-4993-8BCC-691B18A6333C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB9D990B-E98F-4993-8BCC-691B18A6333C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9D990B-E98F-4993-8BCC-691B18A6333C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9D990B-E98F-4993-8BCC-691B18A6333C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9D990B-E98F-4993-8BCC-691B18A6333C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF902EBD-52CF-462D-BE2F-F742855F5292}
+	EndGlobalSection
+EndGlobal

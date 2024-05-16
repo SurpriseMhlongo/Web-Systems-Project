@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FreightDirector.master.cs" Inherits="FreightDirector.FreightDirector" %>
+
+<!DOCTYPE html5>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Styles/FreightDirector.css" rel="stylesheet" />
+    
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    
+ </head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+             <a id="logo-link" href="~/About.aspx">
+        <img src="Images/FreightDirector.png" alt="Logo" />
+             </a>
+
+            <h1 id="headerText">Freight director</h1>
+            <p id="slogan">- Navigating Logistics Excellence</p>
+        </header>
+        <div id="mainContainer">
+            <div id="navigation">
+                <h2>Navigation</h2>
+                <p><asp:ContentPlaceHolder ID="NavigationContent" runat="server"></asp:ContentPlaceHolder></p>
+            </div>
+            <div id="mainContent">
+                <h2><asp:ContentPlaceHolder ID="MainHeading" runat="server"></asp:ContentPlaceHolder></h2>
+                <asp:ContentPlaceHolder ID="Content" runat="server"></asp:ContentPlaceHolder>
+                <div id="liveMap"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <p id="contact">Developer's Details <br />Email: s221440038@mandela.ac.za<br />Phone: +2772 124 3971/+2765 727 9384 <br />  <%= DateTime.Now.ToString("dddd, dd MMMM yyyy") %><br /><asp:HyperLink ID="ftabout" runat="server" NavigateUrl="~/AboutUs.aspx" Text="About FD"></asp:HyperLink></p>
+              
+           
+        </div>
+    </form>
+
+  
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    .
+  <script src="Scripts/FreightDirector.js" type="text/javascript"></script>
+</body>
+</html>
