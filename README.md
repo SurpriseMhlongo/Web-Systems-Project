@@ -1,5 +1,3 @@
-Here is the content in a format that you can copy and paste into a README file:
-
 **Freight Director**
 =====================
 
