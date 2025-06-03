@@ -33,7 +33,7 @@
             </div>
         </div>
         <div id="footer">
-            <p id="contact">Developer's Details <br />Email: s221440038@mandela.ac.za<br />Phone: +2772 124 3971/+2765 727 9384 <br />  <%= DateTime.Now.ToString("dddd, dd MMMM yyyy") %><br /><asp:HyperLink ID="ftabout" runat="server" NavigateUrl="~/AboutUs.aspx" Text="About FD"></asp:HyperLink></p>
+            <p id="contact">Developer's Details <br />Email: s############@mandela.ac.za<br />Phone: +27## ### ####/+27## ### #### <br />  <%= DateTime.Now.ToString("dddd, dd MMMM yyyy") %><br /><asp:HyperLink ID="ftabout" runat="server" NavigateUrl="~/AboutUs.aspx" Text="About FD"></asp:HyperLink></p>
               
            
         </div>
