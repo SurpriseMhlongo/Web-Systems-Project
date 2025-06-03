@@ -210,13 +210,316 @@ th {
 }
 
 /* Main image styles */
-
-/* Main image styles */
 #mainimg {
     
     width: 100%;
     height: 100%;
 }
+/*NEW LOOK - UI/UX focused - To be reviewed
+
+Key Improvements Made:
+
+Modern Typography: Upgraded font stack and improved hierarchy
+
+Subtle Animations: Added smooth transitions and hover effects
+
+Color Enhancements: Used gradient backgrounds for visual interest
+
+Improved Spacing: Better padding and margins for readability
+
+Card-Based Design: Added subtle shadows and rounded corners
+
+Navigation Upgrade: Better organization and hover effects
+
+Responsive Refinements: Enhanced breakpoints for different screens
+
+Accessibility: Better focus states and contrast
+
+Visual Feedback: Improved hover states for interactive elements
+
+Loading Animation: Subtle fade-in for content*/
+
+
+/* Body styles with smooth scrolling */
+/*html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+    color: #333333;
+    line-height: 1.6;
+}*/
+
+/* Improved Header styles with gradient */
+/*header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #01424A 0%, #02707e 100%);
+    padding: 15px 30px;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 100;
+}*/
+
+/* Logo with subtle animation */
+/*#logo {
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+#logo:hover {
+    transform: scale(1.05);
+}*/
+
+/* Header typography improvements */
+/*#headerText {
+    font-size: 28pt;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+#slogan {
+    font-size: 14pt;
+    margin: 5px 0 0;
+    font-family: "Segoe UI", sans-serif;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 300;
+}*/
+
+/* Main container with improved layout */
+/*#mainContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 120px);
+    margin-bottom: 60px;*/ /* For fixed footer */
+/*}*/
+
+/* Live map with better visual treatment */
+/*#liveMap {
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}*/
+
+/* Modernized Navigation */
+/*#navigation {
+    background-color: #496366;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#navigation h2 {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navigation li {
+    margin-bottom: 12px;
+}
+
+#navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+#navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    transform: translateX(5px);
+}*/
+
+/* Enhanced Main Content */
+/*#mainContent {
+    background-color: #ffffff;
+    padding: 25px;
+    color: #333333;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+#mainContent h2 {
+    color: #01424A;
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+#mainContent h2:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #01424A 0%, #02707e 100%);
+    margin-top: 10px;
+}*/
+
+/* Modern Footer */
+/*#footer {
+    background: linear-gradient(135deg, #01424A 0%, #02707e 100%);
+    padding: 15px 30px;
+    font-size: 12pt;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact {
+    text-align: center;
+    flex: 1;
+}
+
+#dateTime {
+    text-align: right;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}*/
+
+/* Table improvements */
+/*table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #01424A;
+}
+
+tr:hover {
+    background-color: rgba(1, 66, 74, 0.03);
+}*/
+
+/* Main image enhancements */
+/*.main-image {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+}
+
+.main-image:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}*/
+
+/* Button styles (add if needed) */
+/*.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #01424A 0%, #02707e 100%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(1, 66, 74, 0.2);
+}*/
+
+/* Responsive improvements */
+/*@media screen and (min-width: 768px) {
+    #mainContainer {
+        flex-direction: row;
+    }
+    
+    #navigation {
+        flex: 0 0 250px;
+        min-height: calc(100vh - 180px);
+    }
+    
+    #mainContent {
+        flex: 1;
+        margin: 20px 20px 20px 0;
+    }
+    
+    header {
+        padding: 20px 40px;
+    }
+    
+    #headerText {
+        font-size: 32pt;
+    }
+    
+    #slogan {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #headerText {
+        font-size: 36pt;
+    }
+    
+    #mainContent {
+        padding: 30px;
+    }
+    
+    #navigation {
+        padding: 30px;
+    }
+}*/
+
+/* Accessibility improvements */
+/*a:focus, button:focus {
+    outline: 2px solid #02707e;
+    outline-offset: 2px;
+}*/
+
+/* Loading animation */
+/*@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#mainContent {
+    animation: fadeIn 0.6s ease-out;
+}*/
+
 
 
 
