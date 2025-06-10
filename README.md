@@ -99,6 +99,10 @@ https://www.mandela.ac.za/Study-at-Mandela/Discovery/Module-browser?mid=WRWV202
 
 https://www.mandela.ac.za/Study-at-Mandela/Discovery/Module-browser?mid=WRDV301
 
+### User Interface Design
+
+https://www.mandela.ac.za/Study-at-Mandela/Discovery/Module-browser?mid=WUIV302
+
 ### Information Systems
 
 https://www.mandela.ac.za/Study-at-Mandela/Discovery/Module-browser?mid=WRIV201
